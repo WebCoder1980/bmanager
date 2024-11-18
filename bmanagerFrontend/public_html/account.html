@@ -1,0 +1,42 @@
+<!DOCTYPE html> <html> <head>
+    <meta charset="utf-8">
+    <title>Аккаунт - BManager</title>
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/account.css">
+    
+    <script src="/scripts/jquery.js"></script>
+    <script type="module" src="/scripts/general.js"></script>
+    <script type="module" src="/scripts/account.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="sitename">BManager</div>
+        <div class="item"><a href="/browser">· Браузер</a></div>
+        <div class="item"><a href="/account">· Аккаунт</a></div>
+        <div class="right">
+            <div id="logoutbutton" class="item1">Выйти</div>
+        </div>
+    </div>
+    <div id="body">
+        <h1>Аккаунт</h1>
+        <div class="container">
+            <h2>Логин:</h2>
+            <input type="text" id="outputCurrentLogin" readonly>
+            <h2>Email:</h2>
+            <input type="text" id="outputCurrentEmail" readonly>
+        </div>
+        <!--
+        <h1>Поменять пароль</h1>
+        <div class="container">
+            <h2>Текущий пароль:</h2>
+            <input type="password" id="inputCurrentPassword">
+            <h2>Новый пароль:</h2>
+            <input type="password" id="inputPassword">
+            <h2>Повторите новый пароль:</h2>
+            <input type="password" id="inputPassword2">
+            <button class="button">Сохранить</button>
+        </div>
+        -->
+    </div>
+</body>
+</html>

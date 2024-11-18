@@ -1,0 +1,38 @@
+<!DOCTYPE html> <html> <head>
+    <meta charset="utf-8">
+    <title>Чтение Markdown - BManager</title>
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/read/markdown.css">
+    
+    <script src="/scripts/jquery.js"></script>
+    <script src="/scripts/marked.min.js"></script>
+    
+    <script type="module" src="/scripts/general.js"></script>
+    <script type="module" src="/scripts/read/markdown.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="sitename">BManager</div>
+        <div class="item"><a href="/browser">· Браузер</a></div>
+        <div class="item"><a href="/account">· Аккаунт</a></div>
+        <div class="right">
+            <div class="item1">Выйти</div>
+        </div>
+    </div>
+    <div id="body">
+        <div class="buttons">
+            <button id="savebutton" class="button">Сохранить</button>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <h1>Код</h1>
+                <textarea id="markdowntext"></textarea>
+            </div>
+            <div class="column">
+                <h1>Предпросмотр</h1>
+                <div id="previewtext"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,195 @@
+#body {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    width: 1000px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#body h1 {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+
+    color: #3361CC;
+    font-family: "Roboto_Bold";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 46.8px */
+}
+
+#body h2 {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+
+    color: #000000;
+    font-family: "Roboto_Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 46.8px */
+}
+
+#body .buttons {
+    display: flex;
+    padding: 10px 10px 10px var(--Space-0, 0px);
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+#body .buttons .button {
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 10px;
+    background: #3361CC;
+
+    color: #FFF;
+    font-family: "Roboto_Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 20.8px */
+
+    border: none;
+}
+
+#body .buttons .button:hover {
+    background-color: #113485;
+}
+
+#body .buttons .button:active {
+    background-color: #061E56;
+}
+
+#body .buttons #updatebutton {
+
+}
+
+#body .buttons #backbutton {
+    
+}
+
+#body #currentway {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    color: #000000;
+    font-family: "Roboto_Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+}
+
+#body table {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+}
+
+#body #browseritems {
+
+}
+
+#body table {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+}
+
+#body table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #3361CC;
+	font-size: 14px;
+
+    color: #FFFFFF;
+    font-family: "Roboto_Regular";
+}
+
+#body table thead tr th:first-child {
+	border-radius: 8px 0 0 8px;
+}
+
+#body table thead tr th:last-child {
+	border-radius: 0 8px 8px 0;
+}
+
+#body table tbody .browseritem {
+    cursor: pointer;
+}
+
+#body table tbody td {
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+
+    font-family: "Roboto_Regular";
+}
+
+#body table tbody td {
+    white-space: nowrap
+}
+#body table tbody td:nth-child(4) {
+    width: 100%;
+}
+
+#body table tbody tr:nth-child(even){
+	background: #F2F2FF;
+}
+
+#body table tbody tr td:first-child {
+	border-radius: 8px 0 0 8px;
+}
+
+#body table tbody tr td:last-child {
+	border-radius: 0 8px 8px 0;
+}
+
+#body table tbody tr td .button {
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 10px;
+    background: #3361CC;
+
+    color: #FFF;
+    font-family: "Roboto_Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 20.8px */
+
+    border: none;
+}
+
+#body table tbody tr td .button:hover {
+    background-color: #113485;
+}
+
+#body table tbody tr td .button:active {
+    background-color: #061E56;
+}

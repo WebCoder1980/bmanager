@@ -1,0 +1,85 @@
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    width: 30%;
+    padding: 10px 10% 10px 10%;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#body h1 {
+    display: flex;
+    align-items: center;
+
+    color: #3361CC;
+    font-family: "Roboto_Bold";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#body h2 {
+    display: flex;
+
+    color: #000000;
+    font-family: "Roboto_Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+
+    margin: 0
+}
+
+#body .container {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: start;
+    gap: 10px;
+}
+
+#body input[type=text], #body input[type=password] {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+#body .button {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+
+    border-radius: 10px;
+    background-color: #3361CC;
+
+    color: #FFFFFF;
+    font-family: "Roboto_Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 20.8px */
+
+    border: none;
+}
+
+#body .button:hover {
+    background-color: #113485;
+}
+
+#body .button:active {
+    background-color: #061E56;
+}

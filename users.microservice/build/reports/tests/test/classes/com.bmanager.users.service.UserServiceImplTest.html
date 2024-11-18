@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - UserServiceImplTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>UserServiceImplTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.bmanager.users.service.html">com.bmanager.users.service</a> &gt; UserServiceImplTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.189s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">deleteUser_common()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteUser_permission_denied_for_other_user()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getUser_common()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getUser_permission_denied_for_other_user()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getUsers_common()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUser_common()</td>
+<td class="success">0.104s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUser_permission_denied_for_other_user()</td>
+<td class="success">0.060s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:29:01.001 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bmanager.users.service.UserServiceImplTest]: UserServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:29:01.112 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bmanager.users.Application for test class com.bmanager.users.service.UserServiceImplTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-11-12T15:29:01.456+07:00  INFO 465796 --- [users] [    Test worker] c.b.users.service.UserServiceImplTest    : Starting UserServiceImplTest using Java 17.0.13 with PID 465796 (started by maxsmg in /home/maxsmg/git/pet/bmanagerBackend/users.microservice)
+2024-11-12T15:29:01.458+07:00  INFO 465796 --- [users] [    Test worker] c.b.users.service.UserServiceImplTest    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-11-12T15:29:02.881+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-12T15:29:03.195+07:00  INFO 465796 --- [users] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-12T15:29:03.313+07:00  WARN 465796 --- [users] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-12T15:29:03.317+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-11-12T15:29:03.318+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001012: Connecting with JDBC URL [jdbc:postgresql://10.8.0.1:5432/bmanager]
+2024-11-12T15:29:03.318+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001001: Connection properties: {password=****, user=postgres}
+2024-11-12T15:29:03.318+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001003: Autocommit mode: false
+2024-11-12T15:29:03.321+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001115: Connection pool size: 10 (min=1)
+2024-11-12T15:29:04.258+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.orm.connections.access     : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4e7151b3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-12T15:29:05.219+07:00  INFO 465796 --- [users] [    Test worker] c.b.users.service.UserServiceImplTest    : Started UserServiceImplTest in 3.979 seconds (process running for 4.958)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.10.2</a> at 12 нояб. 2024 г., 15:29:05</p>
+</div>
+</div>
+</body>
+</html>

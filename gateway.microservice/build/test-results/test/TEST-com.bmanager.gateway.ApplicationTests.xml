@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bmanager.gateway.ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-12T10:18:49" hostname="ArchSecondary" time="1.12">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.bmanager.gateway.ApplicationTests" time="1.12"/>
+  <system-out><![CDATA[17:18:46.232 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bmanager.gateway.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:18:46.396 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bmanager.gateway.Application for test class com.bmanager.gateway.ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-12T17:18:47.106+07:00  INFO 39572 --- [gateway] [    Test worker] com.bmanager.gateway.ApplicationTests    : Starting ApplicationTests using Java 17.0.12 with PID 39572 (started by maxsmg in /home/maxsmg/git/pet/bmanagerBackend/gateway.microservice)
+2024-10-12T17:18:47.109+07:00  INFO 39572 --- [gateway] [    Test worker] com.bmanager.gateway.ApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-10-12T17:18:48.178+07:00  INFO 39572 --- [gateway] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a223cdea-b423-383b-a544-526d37838634
+2024-10-12T17:18:49.515+07:00  INFO 39572 --- [gateway] [    Test worker] com.bmanager.gateway.ApplicationTests    : Started ApplicationTests in 2.882 seconds (process running for 4.821)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

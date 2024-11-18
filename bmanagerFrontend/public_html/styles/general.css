@@ -1,0 +1,225 @@
+body {
+    margin: 0 0 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #E7E9EC;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.blackout {
+    display: flex;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.blackout .popup {
+    display: flex;
+
+    width: 500px;
+
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: auto;
+
+    gap: 10px;
+
+    flex-direction: column;
+
+    background: #ffffff;
+}
+
+.blackout h1 {
+    display: block;
+    padding: 10px;
+    margin-bottom: 0;
+    align-items: center;
+    text-align: center;
+
+    color: #3361CC;
+    font-family: "Roboto_Bold";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 46.8px */
+}
+
+.blackout .popup h2 {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 0;
+    align-items: center;
+    gap: 10px;
+
+    color: #000000;
+    font-family: "Roboto_Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 46.8px */
+}
+
+.blackout .popup input[type=text] {
+    display: flex;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.blackout .popup textarea {
+    resize: none;
+}
+
+.blackout .popup .buttons {
+    display: flex;
+    
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.blackout .popup .buttons .button {
+    display: block;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+
+    border-radius: 10px;
+    background: #3361CC;
+
+    color: #FFF;
+    font-family: "Roboto_Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 20.8px */
+
+    border: none;
+}
+
+.blackout .popup .buttons .button:hover {
+    background-color: #113485;
+}
+
+.blackout .popup .buttons .button:active {
+    background-color: #061E56;
+}
+
+#header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: #3361CC;
+}
+
+#header #sitename {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+
+    color: #FFFFFF;
+    font-family: "Roboto_Bold";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 46.8px */
+}
+
+#header .item {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+
+    color: #FFFFFF;
+    font-family: "Roboto_Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 31.2px */
+}
+
+#header .right {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+#header .right .item1 {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 10px;
+    border: 2px solid #FFF;
+
+    color: #FFF;
+    font-family: "Roboto_Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 20.8px */
+}
+
+#header .right .item2 {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 10px;
+    border: 1px solid #3361CC;
+    background: #FFFFFF;
+
+    color: #3361CC;
+    font-family: "Roboto_Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 20.8px */
+}
+
+#header .right .item1, #header .right .item2 {
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "Roboto_Regular";
+    src: url('/fonts/roboto/regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto_Bold";
+    src: url('/fonts/roboto/bold.ttf');
+}

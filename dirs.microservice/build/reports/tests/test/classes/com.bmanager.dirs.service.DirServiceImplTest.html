@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - DirServiceImplTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>DirServiceImplTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.bmanager.dirs.service.html">com.bmanager.dirs.service</a> &gt; DirServiceImplTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.080s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">addDir_common()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">addDir_permission_denied_for_other_user()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteDir_common()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteDir_permission_denied_for_other_user()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getDir_common()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getDir_permission_denied_for_other_user()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getDirs_common()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateDir_common()</td>
+<td class="success">0.045s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateDir_permission_denied_for_other_user()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:15:47.086 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bmanager.dirs.service.DirServiceImplTest]: DirServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:15:47.207 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bmanager.dirs.Application for test class com.bmanager.dirs.service.DirServiceImplTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2024-11-12T14:15:47.657+07:00  INFO 456983 --- [dirs] [    Test worker] c.b.dirs.service.DirServiceImplTest      : Starting DirServiceImplTest using Java 17.0.13 with PID 456983 (started by maxsmg in /home/maxsmg/git/pet/bmanagerBackend/dirs.microservice)
+2024-11-12T14:15:47.660+07:00  INFO 456983 --- [dirs] [    Test worker] c.b.dirs.service.DirServiceImplTest      : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-11-12T14:15:49.391+07:00  INFO 456983 --- [dirs] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-12T14:15:49.720+07:00  INFO 456983 --- [dirs] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-12T14:15:49.828+07:00  WARN 456983 --- [dirs] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-12T14:15:49.833+07:00  INFO 456983 --- [dirs] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-11-12T14:15:49.833+07:00  INFO 456983 --- [dirs] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001012: Connecting with JDBC URL [jdbc:postgresql://10.8.0.1:5432/bmanager]
+2024-11-12T14:15:49.833+07:00  INFO 456983 --- [dirs] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001001: Connection properties: {password=****, user=postgres}
+2024-11-12T14:15:49.833+07:00  INFO 456983 --- [dirs] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001003: Autocommit mode: false
+2024-11-12T14:15:49.836+07:00  INFO 456983 --- [dirs] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001115: Connection pool size: 10 (min=1)
+2024-11-12T14:15:50.738+07:00  INFO 456983 --- [dirs] [    Test worker] org.hibernate.orm.connections.access     : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@78b44fcb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-12T14:15:51.352+07:00  INFO 456983 --- [dirs] [    Test worker] c.b.dirs.service.DirServiceImplTest      : Started DirServiceImplTest in 3.99 seconds (process running for 5.09)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at 12 нояб. 2024 г., 14:15:51</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bmanager.users.service.UserServiceImplTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-11-12T08:29:05" hostname="ArchSecondary" time="0.207">
+  <properties/>
+  <testcase name="updateUser_common()" classname="com.bmanager.users.service.UserServiceImplTest" time="0.104"/>
+  <testcase name="updateUser_permission_denied_for_other_user()" classname="com.bmanager.users.service.UserServiceImplTest" time="0.06"/>
+  <testcase name="getUser_permission_denied_for_other_user()" classname="com.bmanager.users.service.UserServiceImplTest" time="0.004"/>
+  <testcase name="getUser_common()" classname="com.bmanager.users.service.UserServiceImplTest" time="0.005"/>
+  <testcase name="deleteUser_permission_denied_for_other_user()" classname="com.bmanager.users.service.UserServiceImplTest" time="0.004"/>
+  <testcase name="deleteUser_common()" classname="com.bmanager.users.service.UserServiceImplTest" time="0.005"/>
+  <testcase name="getUsers_common()" classname="com.bmanager.users.service.UserServiceImplTest" time="0.007"/>
+  <system-out><![CDATA[15:29:01.001 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bmanager.users.service.UserServiceImplTest]: UserServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:29:01.112 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bmanager.users.Application for test class com.bmanager.users.service.UserServiceImplTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-11-12T15:29:01.456+07:00  INFO 465796 --- [users] [    Test worker] c.b.users.service.UserServiceImplTest    : Starting UserServiceImplTest using Java 17.0.13 with PID 465796 (started by maxsmg in /home/maxsmg/git/pet/bmanagerBackend/users.microservice)
+2024-11-12T15:29:01.458+07:00  INFO 465796 --- [users] [    Test worker] c.b.users.service.UserServiceImplTest    : No active profile set, falling back to 1 default profile: "default"
+2024-11-12T15:29:02.881+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-12T15:29:03.195+07:00  INFO 465796 --- [users] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-12T15:29:03.313+07:00  WARN 465796 --- [users] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-12T15:29:03.317+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-11-12T15:29:03.318+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001012: Connecting with JDBC URL [jdbc:postgresql://10.8.0.1:5432/bmanager]
+2024-11-12T15:29:03.318+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001001: Connection properties: {password=****, user=postgres}
+2024-11-12T15:29:03.318+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001003: Autocommit mode: false
+2024-11-12T15:29:03.321+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001115: Connection pool size: 10 (min=1)
+2024-11-12T15:29:04.258+07:00  INFO 465796 --- [users] [    Test worker] org.hibernate.orm.connections.access     : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4e7151b3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-12T15:29:05.219+07:00  INFO 465796 --- [users] [    Test worker] c.b.users.service.UserServiceImplTest    : Started UserServiceImplTest in 3.979 seconds (process running for 4.958)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

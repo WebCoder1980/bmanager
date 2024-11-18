@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - NotebookServiceImplTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>NotebookServiceImplTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.bmanager.notebooks.service.html">com.bmanager.notebooks.service</a> &gt; NotebookServiceImplTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.101s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">addDir_common()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteNotebook_common()</td>
+<td class="success">0.060s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteNotebook_permission_denied_for_other_user()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getNotebook_common()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getNotebook_permission_denied_for_other_user()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getNotebooks_common()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateNotebook_common()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateNotebook_permission_denied_for_other_user()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>17:11:11.401 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bmanager.notebooks.service.NotebookServiceImplTest]: NotebookServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:11:11.528 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bmanager.notebooks.Application for test class com.bmanager.notebooks.service.NotebookServiceImplTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-11-12T17:11:11.930+07:00  INFO 510904 --- [notebooks] [    Test worker] c.b.n.service.NotebookServiceImplTest    : Starting NotebookServiceImplTest using Java 17.0.13 with PID 510904 (started by maxsmg in /home/maxsmg/git/pet/bmanagerBackend/notebooks.microservice)
+2024-11-12T17:11:11.933+07:00  INFO 510904 --- [notebooks] [    Test worker] c.b.n.service.NotebookServiceImplTest    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-11-12T17:11:13.575+07:00  INFO 510904 --- [notebooks] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-12T17:11:13.894+07:00  INFO 510904 --- [notebooks] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-12T17:11:14.009+07:00  WARN 510904 --- [notebooks] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-12T17:11:14.013+07:00  INFO 510904 --- [notebooks] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-11-12T17:11:14.014+07:00  INFO 510904 --- [notebooks] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001012: Connecting with JDBC URL [jdbc:postgresql://10.8.0.1:5432/bmanager]
+2024-11-12T17:11:14.014+07:00  INFO 510904 --- [notebooks] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001001: Connection properties: {password=****, user=postgres}
+2024-11-12T17:11:14.014+07:00  INFO 510904 --- [notebooks] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001003: Autocommit mode: false
+2024-11-12T17:11:14.018+07:00  INFO 510904 --- [notebooks] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001115: Connection pool size: 10 (min=1)
+2024-11-12T17:11:15.161+07:00  INFO 510904 --- [notebooks] [    Test worker] org.hibernate.orm.connections.access     : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2b3d03b2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-12T17:11:15.860+07:00  INFO 510904 --- [notebooks] [    Test worker] c.b.n.service.NotebookServiceImplTest    : Started NotebookServiceImplTest in 4.181 seconds (process running for 5.331)
+false
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.10.2</a> at 12 нояб. 2024 г., 17:11:16</p>
+</div>
+</div>
+</body>
+</html>
